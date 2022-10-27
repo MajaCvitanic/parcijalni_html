@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="travel agency website " />
     <meta name="author" content="Maja Cvitanić" />
+    <link href="./style.css" rel="stylesheet">
     <title>Turistička agencija "Avanturist"</title>
   </head>
   <body>
     <header>
+      <img class="logo" src="./Dizajn_bez_naslova-removebg-preview.png">
       <h1>Turistička agencija "Avanturist"</h1>
       <nav>
-        <ul>
-          <li><a href="#o_nama">O nama</a></li>
+        
+        <ul >
+          <div class="dropdown">
+          <li ><a class="dropbtn" href="#o_nama">O nama</a></li>
+          <div class="dropdown-content">
+          <a href="#">Događaji</a>
+              <a href="#">Akcije</a>
+            <a href="#">Poslovnice</a>
+         </div>
+         </div>
           <li><a href="#nase_djelatnosti">Naše djelatnosti</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
+           
         </ul>
       </nav>
     </header>
@@ -49,7 +60,7 @@
           accusantium velit ipsa dolore quasi voluptas praesentium officiis,
           optio deleniti dolorem tenetur laboriosam omnis minima.
         </p>
-        <img src="./team.jpg" alt="image of people in the office" />
+        <img class="section-image" src="./team.jpg" alt="image of people in the office" />
       </section>
       <section id="nase_djelatnosti">
         <h2>Naše djelatnosti</h2>
@@ -72,7 +83,7 @@
           earum porro cum aperiam optio reiciendis, fuga est voluptatibus dolore
           quidem molestias iste.
         </p>
-        <img src="./adventure.jpg" alt="table with travel related images" />
+        <img class="section-image" src="./adventure.jpg" alt="table with travel related images" />
       </section>
       <section id="kontakt">
         <h2>Kontakt</h2>
@@ -89,7 +100,7 @@
     </main>
     <hr />
     <footer>
-      <p>Copyright Avanturist ⓒ 2022</p>
+      <p class="p-footer">Copyright Avanturist ⓒ 2022</p>
       <a href="mailto:maja.cvitanic@hotmail.com"><img src="./mail.png"></a>
     </footer>
   </body>
